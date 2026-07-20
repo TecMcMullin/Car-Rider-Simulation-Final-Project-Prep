@@ -3,9 +3,10 @@
 from simulation import Simulation
 from car import Car
 from rider import Rider
+from graph import Graph
 
 def main():
-    sim = Simulation()
+    sim = Simulation("map.csv")
 
     car1 = Car("car_1", (0, 0))
     car2 = Car("car_2", (5, 5))

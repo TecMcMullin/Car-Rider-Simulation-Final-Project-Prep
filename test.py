@@ -13,8 +13,6 @@ def main():
 
     destination = "TX"
 
-    route, total_time = car.calculate_route(destination, city_map.adj_list)
-
     print("\n=== Test Results ===")
     print(f"Car ID: {car.id}")
     print(f"Start: {car.location}")

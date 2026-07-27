@@ -1,43 +1,29 @@
 # test.py
 
-from simulation import Simulation
-from car import Car
-from rider import Rider
 from graph import Graph
+from car import Car
+
 
 def main():
-    sim = Simulation("map.csv")
 
-    car1 = Car("car_1", (0, 0))
-    car2 = Car("car_2", (5, 5))
+    city_map = Graph()
+    city_map.load_from_file("map.csv")
 
-    sim.cars[car1.id] = car1
-    sim.cars[car2.id] = car2
+    car = Car("CAR-1", "NY")
 
-    rider1 = Rider("rider_1", (2, 3), (10, 10))
-    rider2 = Rider("rider_2", (1, 1), (8, 4))
+    destination = "TX"
 
-    sim.riders[rider1.id] = rider1
-    sim.riders[rider2.id] = rider2
+    route, total_time = car.calculate_route(destination, city_map.adj_list)
 
-    print("\n=== Cars in Simulation ===")
-    for car_id, car_obj in sim.cars.items():
-        print(f"Car key: {car_id}")
-        car_obj.__str__()
+    print("\n=== Test Results ===")
+    print(f"Car ID: {car.id}")
+    print(f"Start: {car.location}")
+    print(f"Destination: {destination}")
+    print(f"Route: {' -> '.join(route)}")
+    print(f"Total Distance: {total_time}")
+    print("====================\n")
 
-    print("\n=== Riders in Simulation ===")
-    for rider_id, rider_obj in sim.riders.items():
-        print(f"Rider key: {rider_id}")
-        rider_obj.__str__()
-
-    print("\n=== Lookup Example ===")
-    lookup_id = "car_1"
-    print(f"Looking up {lookup_id}...")
-    sim.cars[lookup_id].__str__()
-
-    lookup_id = "rider_2"
-    print(f"Looking up {lookup_id}...")
-    sim.riders[lookup_id].__str__()
+    city_map.display()
 
 if __name__ == "__main__":
     main()

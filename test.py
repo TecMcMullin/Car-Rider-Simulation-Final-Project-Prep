@@ -19,8 +19,8 @@ def main():
     print(f"Car ID: {car.id}")
     print(f"Start: {car.location}")
     print(f"Destination: {destination}")
-    print(f"Route: {' -> '.join(route)}")
-    print(f"Total Distance: {total_time}")
+    print(f"Route: {car.route}")
+    print(f"Total Distance: {car.route_time}")
     print("====================\n")
 
     city_map.display()

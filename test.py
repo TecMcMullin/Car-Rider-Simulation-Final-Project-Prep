@@ -13,13 +13,8 @@ def main():
 
     destination = "TX"
 
-    print("\n=== Test Results ===")
-    print(f"Car ID: {car.id}")
-    print(f"Start: {car.location}")
-    print(f"Destination: {destination}")
-    print(f"Route: {car.route}")
-    print(f"Total Distance: {car.route_time}")
-    print("====================\n")
+    car.calculate_route(destination, city_map.adj_list)
+    car.__str__()
 
     city_map.display()
 

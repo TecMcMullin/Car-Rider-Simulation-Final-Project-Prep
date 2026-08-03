@@ -16,5 +16,13 @@ The locations set in this map for csv are NY, TX, and CA. They are set in the fi
     python3 test.py
 ~~~
 
+## Quadtree Data Structure
+The purpose of a quadtree data structure is to place points on a grid and allow point to be subdivided for more accuracy when finding paths. It uses the efficient nearest-neighbor search method to do this. It checks the priority locations first to move because those points are necessary to find a path. Then it moves through the grid checking the main points for verification, then goes in further if it ends up being the correct point. Instead of using O(N) which just makes the grid bigger on a 2d sense, It uses O(logN) which is a way to subdivide points turning it into a 3d grid making it faster to move throughout the grid.
+
+## How to Run
+~~~bash
+    python3 test_quadtree.py
+~~~
+
 ## Dependencies
     Python 3.14.0

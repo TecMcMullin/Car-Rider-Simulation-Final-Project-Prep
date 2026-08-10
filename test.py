@@ -1,22 +1,22 @@
 # test.py
 
-from graph import Graph
+from simulation import Simulation
+from rider import Rider
 from car import Car
 
+sim = Simulation("map.csv")
 
-def main():
+sim.cars["C1"] = Car("C1", (10, 10))
+sim.cars["C2"] = Car("C2", (50, 50))
+sim.cars["C3"] = Car("C3", (100, 100))
 
-    city_map = Graph()
-    city_map.load_from_file("map.csv")
+r1 = Rider("R1", (20, 20), (80, 80))
+r2 = Rider("R2", (60, 60), (10, 10))
 
-    car = Car("CAR-1", "NY")
+sim.riders["R1"] = r1
+sim.riders["R2"] = r2
 
-    destination = "TX"
+sim.schedule_event(0, "RIDER_REQUEST", r1)
+sim.schedule_event(5, "RIDER_REQUEST", r2)
 
-    car.calculate_route(destination, city_map.adj_list)
-    car.__str__()
-
-    city_map.display()
-
-if __name__ == "__main__":
-    main()
+sim.run()

@@ -1,15 +1,15 @@
 # car.py
 
-from pathfinding import dijkstra, reconstruct_path
-
 class Car:
     def __init__(self, car_id, initial_location):
+
         self.id = car_id
         self.location = initial_location
         self.status = 'available'
         self.destination = None
         self.route = None
         self.route_time = None
+        self.assigned_rider = None
 
     def __str__(self):
         print(f"--- Car ID: {self.id} ---")
@@ -18,20 +18,5 @@ class Car:
         print(f"  Destination: {self.destination}")
         print(f"  Route: {self.route}")
         print(f"  Route Time: {self.route_time}")
+        print(f"  Assigned Rider: {self.assigned_rider.id if self.assigned_rider else None}")
         print("--------------------")
-
-    def calculate_route(self, destination, graph):
-        
-        self.destination = destination
-
-        # Run Dijkstra using the external module
-        distances, predecessors = dijkstra(graph, self.location)
-
-        # Build the route
-        path = reconstruct_path(predecessors, destination)
-
-        # Store results
-        self.route = path
-        self.route_time = distances[destination]
-
-        return path, distances[destination]

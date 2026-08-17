@@ -1,42 +1,45 @@
-# graph.py
-import csv
+##graph.py
+
+import collections
+
 
 class Graph:
     def __init__(self):
-        self.adj_list = {}
+        self.adjacency_list = collections.defaultdict(list)
+        self.node_coordinates = {}
 
-    def add_vertex(self, vertex):
-        if vertex not in self.adj_list:
-            self.adj_list[vertex] = []
+    def load_map_data(self, filename):
+        with open(filename, "r") as file:
+            for line in file:
+                if line.startswith("#") or not line.strip():
+                    continue
 
-    def add_edge(self, v1, v2, weight):
-        self.add_vertex(v1)
-        self.add_vertex(v2)
-        self.adj_list[v1].append((v2, float(weight)))
+                parts = line.strip().split(",")
 
-    def load_from_file(self, filename):
-        print(f"Loading map from {filename}...")
-        try:
-            with open(filename, 'r') as f:
-                reader = csv.reader(f)
-                for row in reader:
-                    if len(row) == 3:
-                        start, end, weight = row
-                        self.add_edge(start.strip(), end.strip(), weight.strip())
-            print("Map loaded successfully.")
-        except FileNotFoundError:
-            print(f"Error: File '{filename}' not found.")
-        except Exception as e:
-            print(f"An error occurred: {e}")
+                (
+                    start_id,
+                    start_x,
+                    start_y,
+                    end_id,
+                    end_x,
+                    end_y,
+                    weight,
+                ) = parts
 
-    def display(self):
-        print("\n--- Graph Adjacency List ---")
-        for vertex, neighbors in self.adj_list.items():
-            neighbor_str = ", ".join([f"({n}, {w})" for n, w in neighbors])
-            print(f"{vertex} -> [{neighbor_str}]")
-        print("----------------------------")
+                self.node_coordinates[start_id] = (
+                    float(start_x),
+                    float(start_y),
+                )
 
-if __name__ == "__main__":
-    city_map = Graph()
-    city_map.load_from_file('map.csv')
-    city_map.display()
+                self.node_coordinates[end_id] = (
+                    float(end_x),
+                    float(end_y),
+                )
+
+                self.adjacency_list[start_id].append(
+                    (end_id, float(weight))
+                )
+
+                self.adjacency_list[end_id].append(
+                    (start_id, float(weight))
+                )

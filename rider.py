@@ -1,20 +1,12 @@
-# rider.py
+##rider.py
 
 class Rider:
-    def __init__(self, rider_id, pickup_location, dropoff_location):
-        """
-        Args:
-            rider_id (str): The unique identifier for the car.
-            pickup_location (tuple): The starting (x, y) coordinates.
-            dropoff_location (tuple): The ending (x, y) coordinates.
-        """
+    def __init__(self, rider_id, start_location, destination):
         self.id = rider_id
-        self.start_location = pickup_location
-        self.destination = dropoff_location
-        self.status = 'waiting'
-    def __str__(self):
-        print(f"--- Rider: {self.id} ---")
-        print(f"  Status: {self.status}")
-        print(f"  Pickup: {self.start_location}")
-        print(f"  Destination: {self.destination}")
-        print("--------------------")
+        self.start_location = start_location
+        self.destination = destination
+
+        self.status = "new"
+        self.request_time = None
+        self.pickup_time = None
+        self.dropoff_time = None

@@ -1,0 +1,241 @@
+TIME 0.0: Dispatch CAR 3 to RIDER 0, pickup ETA 0.0
+TIME 0.0: CAR 3 picked up RIDER 0 (wait 0.0)
+TIME 0.0: CAR 3 en route to destination for RIDER 0 (trip 10.0)
+TIME 0.0: Dispatch CAR 5 to RIDER 1, pickup ETA 0.0
+TIME 0.0: CAR 5 picked up RIDER 1 (wait 0.0)
+TIME 0.0: CAR 5 en route to destination for RIDER 1 (trip 0.0)
+TIME 0.0: Dispatch CAR 1 to RIDER 2, pickup ETA 0.0
+TIME 0.0: CAR 5 dropped off RIDER 1 (trip 0.0)
+TIME 0.0: CAR 1 picked up RIDER 2 (wait 0.0)
+TIME 0.0: CAR 1 en route to destination for RIDER 2 (trip 0.0)
+TIME 0.0: Dispatch CAR 4 to RIDER 4, pickup ETA 0.0
+TIME 0.0: CAR 1 dropped off RIDER 2 (trip 0.0)
+TIME 0.0: CAR 4 picked up RIDER 4 (wait 0.0)
+TIME 0.0: CAR 4 en route to destination for RIDER 4 (trip 10.0)
+TIME 0.0: Dispatch CAR 25 to RIDER 6, pickup ETA 0.0
+TIME 0.0: CAR 25 picked up RIDER 6 (wait 0.0)
+TIME 0.0: CAR 25 en route to destination for RIDER 6 (trip 10.0)
+TIME 0.0: Dispatch CAR 0 to RIDER 8, pickup ETA 0.0
+TIME 0.0: CAR 0 picked up RIDER 8 (wait 0.0)
+TIME 0.0: CAR 0 en route to destination for RIDER 8 (trip 0.0)
+TIME 0.0: Dispatch CAR 1 to RIDER 9, pickup ETA 0.0
+TIME 0.0: CAR 0 dropped off RIDER 8 (trip 0.0)
+TIME 0.0: CAR 1 picked up RIDER 9 (wait 0.0)
+TIME 0.0: CAR 1 en route to destination for RIDER 9 (trip 10.0)
+TIME 0.0: Dispatch CAR 6 to RIDER 10, pickup ETA 0.0
+TIME 0.0: CAR 6 picked up RIDER 10 (wait 0.0)
+TIME 0.0: CAR 6 en route to destination for RIDER 10 (trip 20.0)
+TIME 0.0: Dispatch CAR 2 to RIDER 11, pickup ETA 0.0
+TIME 0.0: CAR 2 picked up RIDER 11 (wait 0.0)
+TIME 0.0: CAR 2 en route to destination for RIDER 11 (trip 10.0)
+TIME 0.0: Dispatch CAR 7 to RIDER 13, pickup ETA 0.0
+TIME 0.0: CAR 7 picked up RIDER 13 (wait 0.0)
+TIME 0.0: CAR 7 en route to destination for RIDER 13 (trip 10.0)
+TIME 0.0: Dispatch CAR 9 to RIDER 14, pickup ETA 0.0
+TIME 0.0: CAR 9 picked up RIDER 14 (wait 0.0)
+TIME 0.0: CAR 9 en route to destination for RIDER 14 (trip 0.0)
+TIME 0.0: Dispatch CAR 11 to RIDER 16, pickup ETA 0.0
+TIME 0.0: CAR 9 dropped off RIDER 14 (trip 0.0)
+TIME 0.0: CAR 11 picked up RIDER 16 (wait 0.0)
+TIME 0.0: CAR 11 en route to destination for RIDER 16 (trip 0.0)
+TIME 0.0: Dispatch CAR 16 to RIDER 18, pickup ETA 0.0
+TIME 0.0: CAR 11 dropped off RIDER 16 (trip 0.0)
+TIME 0.0: CAR 16 picked up RIDER 18 (wait 0.0)
+TIME 0.0: CAR 16 en route to destination for RIDER 18 (trip 0.0)
+TIME 0.0: Dispatch CAR 26 to RIDER 19, pickup ETA 0.0
+TIME 0.0: CAR 16 dropped off RIDER 18 (trip 0.0)
+TIME 0.0: CAR 26 picked up RIDER 19 (wait 0.0)
+TIME 0.0: CAR 26 en route to destination for RIDER 19 (trip 10.0)
+TIME 0.0: Dispatch CAR 20 to RIDER 21, pickup ETA 0.0
+TIME 0.0: CAR 20 picked up RIDER 21 (wait 0.0)
+TIME 0.0: CAR 20 en route to destination for RIDER 21 (trip 10.0)
+TIME 0.0: Dispatch CAR 8 to RIDER 23, pickup ETA 0.0
+TIME 0.0: CAR 8 picked up RIDER 23 (wait 0.0)
+TIME 0.0: CAR 8 en route to destination for RIDER 23 (trip 10.0)
+TIME 0.0: Dispatch CAR 5 to RIDER 24, pickup ETA 0.0
+TIME 0.0: CAR 5 picked up RIDER 24 (wait 0.0)
+TIME 0.0: CAR 5 en route to destination for RIDER 24 (trip 10.0)
+TIME 0.0: Dispatch CAR 12 to RIDER 25, pickup ETA 0.0
+TIME 0.0: CAR 12 picked up RIDER 25 (wait 0.0)
+TIME 0.0: CAR 12 en route to destination for RIDER 25 (trip 0.0)
+TIME 0.0: Dispatch CAR 17 to RIDER 27, pickup ETA 0.0
+TIME 0.0: CAR 12 dropped off RIDER 25 (trip 0.0)
+TIME 0.0: CAR 17 picked up RIDER 27 (wait 0.0)
+TIME 0.0: CAR 17 en route to destination for RIDER 27 (trip 10.0)
+TIME 0.0: Dispatch CAR 0 to RIDER 29, pickup ETA 0.0
+TIME 0.0: CAR 0 picked up RIDER 29 (wait 0.0)
+TIME 0.0: CAR 0 en route to destination for RIDER 29 (trip 0.0)
+TIME 0.0: Dispatch CAR 15 to RIDER 31, pickup ETA 0.0
+TIME 0.0: CAR 0 dropped off RIDER 29 (trip 0.0)
+TIME 0.0: CAR 15 picked up RIDER 31 (wait 0.0)
+TIME 0.0: CAR 15 en route to destination for RIDER 31 (trip 0.0)
+TIME 0.0: Dispatch CAR 0 to RIDER 32, pickup ETA 0.0
+TIME 0.0: CAR 15 dropped off RIDER 31 (trip 0.0)
+TIME 0.0: CAR 0 picked up RIDER 32 (wait 0.0)
+TIME 0.0: CAR 0 en route to destination for RIDER 32 (trip 20.0)
+TIME 0.0: Dispatch CAR 11 to RIDER 33, pickup ETA 0.0
+TIME 0.0: CAR 11 picked up RIDER 33 (wait 0.0)
+TIME 0.0: CAR 11 en route to destination for RIDER 33 (trip 20.0)
+TIME 0.0: Dispatch CAR 10 to RIDER 34, pickup ETA 0.0
+TIME 0.0: CAR 10 picked up RIDER 34 (wait 0.0)
+TIME 0.0: CAR 10 en route to destination for RIDER 34 (trip 20.0)
+TIME 0.0: Dispatch CAR 9 to RIDER 36, pickup ETA 0.0
+TIME 0.0: CAR 9 picked up RIDER 36 (wait 0.0)
+TIME 0.0: CAR 9 en route to destination for RIDER 36 (trip 10.0)
+TIME 0.0: Dispatch CAR 15 to RIDER 38, pickup ETA 0.0
+TIME 0.0: CAR 15 picked up RIDER 38 (wait 0.0)
+TIME 0.0: CAR 15 en route to destination for RIDER 38 (trip 0.0)
+TIME 0.0: Dispatch CAR 12 to RIDER 39, pickup ETA 0.0
+TIME 0.0: CAR 15 dropped off RIDER 38 (trip 0.0)
+TIME 0.0: CAR 12 picked up RIDER 39 (wait 0.0)
+TIME 0.0: CAR 12 en route to destination for RIDER 39 (trip 10.0)
+TIME 0.0: Dispatch CAR 19 to RIDER 41, pickup ETA 0.0
+TIME 0.0: CAR 19 picked up RIDER 41 (wait 0.0)
+TIME 0.0: CAR 19 en route to destination for RIDER 41 (trip 20.0)
+TIME 0.0: Dispatch CAR 15 to RIDER 43, pickup ETA 0.0
+TIME 0.0: CAR 15 picked up RIDER 43 (wait 0.0)
+TIME 0.0: CAR 15 en route to destination for RIDER 43 (trip 0.0)
+TIME 0.0: Dispatch CAR 27 to RIDER 45, pickup ETA 0.0
+TIME 0.0: CAR 15 dropped off RIDER 43 (trip 0.0)
+TIME 0.0: CAR 27 picked up RIDER 45 (wait 0.0)
+TIME 0.0: CAR 27 en route to destination for RIDER 45 (trip 20.0)
+TIME 0.0: Dispatch CAR 13 to RIDER 47, pickup ETA 0.0
+TIME 0.0: CAR 13 picked up RIDER 47 (wait 0.0)
+TIME 0.0: CAR 13 en route to destination for RIDER 47 (trip 10.0)
+TIME 0.0: Dispatch CAR 14 to RIDER 48, pickup ETA 10.0
+TIME 0.0: Dispatch CAR 16 to RIDER 50, pickup ETA 10.0
+TIME 0.0: Dispatch CAR 22 to RIDER 52, pickup ETA 10.0
+TIME 0.0: Dispatch CAR 15 to RIDER 54, pickup ETA 10.0
+TIME 0.0: Dispatch CAR 21 to RIDER 55, pickup ETA 0.0
+TIME 0.0: CAR 21 picked up RIDER 55 (wait 0.0)
+TIME 0.0: CAR 21 en route to destination for RIDER 55 (trip 10.0)
+TIME 0.0: Dispatch CAR 29 to RIDER 56, pickup ETA 0.0
+TIME 0.0: CAR 29 picked up RIDER 56 (wait 0.0)
+TIME 0.0: CAR 29 en route to destination for RIDER 56 (trip 20.0)
+TIME 0.0: Dispatch CAR 18 to RIDER 58, pickup ETA 0.0
+TIME 0.0: CAR 18 picked up RIDER 58 (wait 0.0)
+TIME 0.0: CAR 18 en route to destination for RIDER 58 (trip 0.0)
+TIME 0.0: Dispatch CAR 23 to RIDER 60, pickup ETA 10.0
+TIME 0.0: CAR 18 dropped off RIDER 58 (trip 0.0)
+TIME 0.0: Dispatch CAR 18 to RIDER 61, pickup ETA 10.0
+TIME 0.0: Dispatch CAR 24 to RIDER 62, pickup ETA 0.0
+TIME 0.0: CAR 24 picked up RIDER 62 (wait 0.0)
+TIME 0.0: CAR 24 en route to destination for RIDER 62 (trip 10.0)
+TIME 0.0: Dispatch CAR 28 to RIDER 64, pickup ETA 10.0
+TIME 0.0: Rider 65 unmatched (no available cars).
+TIME 0.0: Rider 66 unmatched (no available cars).
+TIME 0.0: Rider 67 unmatched (no available cars).
+TIME 0.0: Rider 69 unmatched (no available cars).
+TIME 0.0: Rider 70 unmatched (no available cars).
+TIME 0.0: Rider 71 unmatched (no available cars).
+TIME 0.0: Rider 72 unmatched (no available cars).
+TIME 0.0: Rider 73 unmatched (no available cars).
+TIME 0.0: Rider 74 unmatched (no available cars).
+TIME 1.3308245893426471: Rider 12 unmatched (no available cars).
+TIME 1.604506533117185: Rider 37 unmatched (no available cars).
+TIME 1.71327607204778: Rider 63 unmatched (no available cars).
+TIME 2.055210209145624: Rider 26 unmatched (no available cars).
+TIME 2.207970614134285: Rider 44 unmatched (no available cars).
+TIME 3.0068029417192688: Rider 68 unmatched (no available cars).
+TIME 5.803311150385893: Rider 57 unmatched (no available cars).
+TIME 5.95144203822766: Rider 75 unmatched (no available cars).
+TIME 7.546135893942742: Rider 20 unmatched (no available cars).
+TIME 8.239265956150886: Rider 59 unmatched (no available cars).
+TIME 8.445757521730133: Rider 35 unmatched (no available cars).
+TIME 9.479965098283783: Rider 22 unmatched (no available cars).
+TIME 10.0: CAR 3 dropped off RIDER 0 (trip 10.0)
+TIME 10.0: CAR 4 dropped off RIDER 4 (trip 10.0)
+TIME 10.0: CAR 25 dropped off RIDER 6 (trip 10.0)
+TIME 10.0: CAR 1 dropped off RIDER 9 (trip 10.0)
+TIME 10.0: CAR 2 dropped off RIDER 11 (trip 10.0)
+TIME 10.0: CAR 7 dropped off RIDER 13 (trip 10.0)
+TIME 10.0: CAR 26 dropped off RIDER 19 (trip 10.0)
+TIME 10.0: CAR 20 dropped off RIDER 21 (trip 10.0)
+TIME 10.0: CAR 8 dropped off RIDER 23 (trip 10.0)
+TIME 10.0: CAR 5 dropped off RIDER 24 (trip 10.0)
+TIME 10.0: CAR 17 dropped off RIDER 27 (trip 10.0)
+TIME 10.0: CAR 9 dropped off RIDER 36 (trip 10.0)
+TIME 10.0: CAR 12 dropped off RIDER 39 (trip 10.0)
+TIME 10.0: CAR 13 dropped off RIDER 47 (trip 10.0)
+TIME 10.0: CAR 14 picked up RIDER 48 (wait 10.0)
+TIME 10.0: CAR 14 en route to destination for RIDER 48 (trip 10.0)
+TIME 10.0: CAR 16 picked up RIDER 50 (wait 10.0)
+TIME 10.0: CAR 16 en route to destination for RIDER 50 (trip 10.0)
+TIME 10.0: CAR 22 picked up RIDER 52 (wait 10.0)
+TIME 10.0: CAR 22 en route to destination for RIDER 52 (trip 20.0)
+TIME 10.0: CAR 15 picked up RIDER 54 (wait 10.0)
+TIME 10.0: CAR 15 en route to destination for RIDER 54 (trip 10.0)
+TIME 10.0: CAR 21 dropped off RIDER 55 (trip 10.0)
+TIME 10.0: CAR 23 picked up RIDER 60 (wait 10.0)
+TIME 10.0: CAR 23 en route to destination for RIDER 60 (trip 20.0)
+TIME 10.0: CAR 18 picked up RIDER 61 (wait 10.0)
+TIME 10.0: CAR 18 en route to destination for RIDER 61 (trip 20.0)
+TIME 10.0: CAR 24 dropped off RIDER 62 (trip 10.0)
+TIME 10.0: CAR 28 picked up RIDER 64 (wait 10.0)
+TIME 10.0: CAR 28 en route to destination for RIDER 64 (trip 0.0)
+TIME 10.0: CAR 28 dropped off RIDER 64 (trip 0.0)
+TIME 10.151186644133336: Dispatch CAR 17 to RIDER 40, pickup ETA 0.0
+TIME 10.151186644133336: CAR 17 picked up RIDER 40 (wait 0.0)
+TIME 10.151186644133336: CAR 17 en route to destination for RIDER 40 (trip 20.0)
+TIME 11.028712671315816: Dispatch CAR 20 to RIDER 42, pickup ETA 0.0
+TIME 11.028712671315816: CAR 20 picked up RIDER 42 (wait 0.0)
+TIME 11.028712671315816: CAR 20 en route to destination for RIDER 42 (trip 10.0)
+TIME 11.164596800691674: Dispatch CAR 1 to RIDER 46, pickup ETA 0.0
+TIME 11.164596800691674: CAR 1 picked up RIDER 46 (wait 0.0)
+TIME 11.164596800691674: CAR 1 en route to destination for RIDER 46 (trip 0.0)
+TIME 11.164596800691674: CAR 1 dropped off RIDER 46 (trip 0.0)
+TIME 11.915076782217835: Dispatch CAR 1 to RIDER 49, pickup ETA 0.0
+TIME 11.915076782217835: CAR 1 picked up RIDER 49 (wait 0.0)
+TIME 11.915076782217835: CAR 1 en route to destination for RIDER 49 (trip 10.0)
+TIME 12.980083465116639: Dispatch CAR 26 to RIDER 51, pickup ETA 0.0
+TIME 12.980083465116639: CAR 26 picked up RIDER 51 (wait 0.0)
+TIME 12.980083465116639: CAR 26 en route to destination for RIDER 51 (trip 10.0)
+TIME 13.451518681342511: Dispatch CAR 2 to RIDER 5, pickup ETA 10.0
+TIME 14.483625933436004: Dispatch CAR 24 to RIDER 3, pickup ETA 0.0
+TIME 14.483625933436004: CAR 24 picked up RIDER 3 (wait 0.0)
+TIME 14.483625933436004: CAR 24 en route to destination for RIDER 3 (trip 10.0)
+TIME 15.722220666420167: Dispatch CAR 3 to RIDER 15, pickup ETA 10.0
+TIME 16.47768780958256: Dispatch CAR 5 to RIDER 7, pickup ETA 10.0
+TIME 17.636611884783775: Dispatch CAR 8 to RIDER 53, pickup ETA 0.0
+TIME 17.636611884783775: CAR 8 picked up RIDER 53 (wait 0.0)
+TIME 17.636611884783775: CAR 8 en route to destination for RIDER 53 (trip 0.0)
+TIME 17.636611884783775: CAR 8 dropped off RIDER 53 (trip 0.0)
+TIME 18.488874012316376: Dispatch CAR 4 to RIDER 17, pickup ETA 0.0
+TIME 18.488874012316376: CAR 4 picked up RIDER 17 (wait 0.0)
+TIME 18.488874012316376: CAR 4 en route to destination for RIDER 17 (trip 10.0)
+TIME 18.489251488665655: Dispatch CAR 8 to RIDER 28, pickup ETA 10.0
+TIME 19.14173794338579: Dispatch CAR 7 to RIDER 30, pickup ETA 0.0
+TIME 19.14173794338579: CAR 7 picked up RIDER 30 (wait 0.0)
+TIME 19.14173794338579: CAR 7 en route to destination for RIDER 30 (trip 10.0)
+TIME 20.0: CAR 6 dropped off RIDER 10 (trip 20.0)
+TIME 20.0: CAR 0 dropped off RIDER 32 (trip 20.0)
+TIME 20.0: CAR 11 dropped off RIDER 33 (trip 20.0)
+TIME 20.0: CAR 10 dropped off RIDER 34 (trip 20.0)
+TIME 20.0: CAR 19 dropped off RIDER 41 (trip 20.0)
+TIME 20.0: CAR 27 dropped off RIDER 45 (trip 20.0)
+TIME 20.0: CAR 29 dropped off RIDER 56 (trip 20.0)
+TIME 20.0: CAR 14 dropped off RIDER 48 (trip 10.0)
+TIME 20.0: CAR 16 dropped off RIDER 50 (trip 10.0)
+TIME 20.0: CAR 15 dropped off RIDER 54 (trip 10.0)
+TIME 21.028712671315816: CAR 20 dropped off RIDER 42 (trip 10.0)
+TIME 21.915076782217835: CAR 1 dropped off RIDER 49 (trip 10.0)
+TIME 22.98008346511664: CAR 26 dropped off RIDER 51 (trip 10.0)
+TIME 23.451518681342513: CAR 2 picked up RIDER 5 (wait 10.000000000000002)
+TIME 23.451518681342513: CAR 2 en route to destination for RIDER 5 (trip 10.0)
+TIME 24.483625933436002: CAR 24 dropped off RIDER 3 (trip 9.999999999999998)
+TIME 25.722220666420167: CAR 3 picked up RIDER 15 (wait 10.0)
+TIME 25.722220666420167: CAR 3 en route to destination for RIDER 15 (trip 0.0)
+TIME 25.722220666420167: CAR 3 dropped off RIDER 15 (trip 0.0)
+TIME 26.47768780958256: CAR 5 picked up RIDER 7 (wait 10.0)
+TIME 26.47768780958256: CAR 5 en route to destination for RIDER 7 (trip 10.0)
+TIME 28.488874012316376: CAR 4 dropped off RIDER 17 (trip 10.0)
+TIME 28.489251488665655: CAR 8 picked up RIDER 28 (wait 10.0)
+TIME 28.489251488665655: CAR 8 en route to destination for RIDER 28 (trip 20.0)
+TIME 29.14173794338579: CAR 7 dropped off RIDER 30 (trip 10.0)
+TIME 30.0: CAR 22 dropped off RIDER 52 (trip 20.0)
+TIME 30.0: CAR 23 dropped off RIDER 60 (trip 20.0)
+TIME 30.0: CAR 18 dropped off RIDER 61 (trip 20.0)
+TIME 30.151186644133336: CAR 17 dropped off RIDER 40 (trip 20.0)
+TIME 33.45151868134251: CAR 2 dropped off RIDER 5 (trip 10.0)
+TIME 36.47768780958256: CAR 5 dropped off RIDER 7 (trip 10.000000000000004)
+TIME 48.48925148866566: CAR 8 dropped off RIDER 28 (trip 20.000000000000004)

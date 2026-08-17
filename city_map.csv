@@ -1,0 +1,6 @@
+# start_node_id,start_x,start_y,end_node_id,end_x,end_y,weight
+A,0.0,0.0,B,10.0,0.0,10.0
+B,10.0,0.0,C,10.0,10.0,10.0
+C,10.0,10.0,D,0.0,10.0,10.0
+D,0.0,10.0,A,0.0,0.0,10.0
+# Add more rows for production maps
